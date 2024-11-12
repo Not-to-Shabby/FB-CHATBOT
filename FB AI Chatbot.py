@@ -111,6 +111,6 @@ class MyChatBot(Client):
 
 #Facebook account        
 email = "" #email of your fb account
-password = "\" #password of your fb account
+password = "" #password of your fb account
 client = MyChatBot(email, password)
 client.listen()
